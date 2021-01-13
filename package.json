@@ -1,7 +1,10 @@
 {
   "name": "@cheesejs/format-date",
   "version": "1.0.1",
-  "description": "",
+  "description": "A simple date formatter function in 30 lines of code.",
+  "keywords": [
+    "date-formatter"
+  ],
   "main": "src/index.ts",
   "module": "src/index.ts",
   "scripts": {
