@@ -19,7 +19,7 @@ npm i -D @cheesejs/format-date
 ```ts
 import formatDate from '@cheesejs/format-date'
 
-formatDate(new Date(),'Y-MM-DD WWW hh:mm:ss')
+formatDate(new Date(),'YYYY-MM-DD WWW hh:mm:ss')
 // 2021-01-13 星期三 22:20:03
 ```
 
