@@ -13,7 +13,7 @@ export default function formatDate(date: Date, format: string) {
 
     let formatted = format
 
-    formatted = formatted.replace('Y', year.toString())
+    formatted = formatted.replace('YYYY', year.toString())
     formatted = formatted.replace('MM', (month + 1).toString().padStart(2, '0'))
     formatted = formatted.replace('M', (month + 1).toString())
     formatted = formatted.replace('DD', day.toString().padStart(2, '0'))
@@ -27,4 +27,6 @@ export default function formatDate(date: Date, format: string) {
     formatted = formatted.replace('m', min.toString())
     formatted = formatted.replace('ss', sec.toString().padStart(2, '0'))
     formatted = formatted.replace('s', sec.toString())
+
+    return formatted
 }
