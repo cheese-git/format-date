@@ -2,7 +2,12 @@ const weekdayNames_1 = ['日', '一', '二', '三', '四', '五', '六']
 const weekdayNames_2 = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
 const weekdayNames_3 = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
 
-export default function formatDate(date: Date, format: string) {
+/**
+ * @param date JavaScript `Date` object, or a string that can be parsed as a `Date` object
+ */
+export default function formatDate(date: Date | string, format: string) {
+    if (typeof date === 'string') date = new Date(date)
+
     const year = date.getFullYear()
     const month = date.getMonth()
     const day = date.getDate()

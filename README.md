@@ -21,6 +21,9 @@ import formatDate from '@cheesejs/format-date'
 
 formatDate(new Date(),'YYYY-MM-DD WWW hh:mm:ss')
 // 2021-01-13 星期三 22:20:03
+
+formatDate('2021-1-3 22:20:03','YYYY-MM-DD WW hh:mm:ss')
+// 2021-01-13 周三 22:20:03
 ```
 
 符号表：
