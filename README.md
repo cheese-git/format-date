@@ -1,6 +1,6 @@
 # format-date
 
-一个只有 30 行代码的日期格式化函数。
+一个只有 30 行代码的日期格式化函数。目前只能在 TypeScript 中使用。
 
 ## 为什么？
 
@@ -11,7 +11,7 @@
 ## 安装
 
 ```
-npm i -D @cheesejs/format-date
+npm i @cheesejs/format-date
 ```
 
 ## 使用
