@@ -8,10 +8,16 @@
 -  JavaScript 原生的方法不但存在兼容性问题，而且写法较为繁琐。
 -  大部分时候，我们并不需要 i18n 支持
 
-## 用法
+## 安装
+
+```
+npm i -D @cheesejs/format-date
+```
+
+## 使用
 
 ```ts
-import formatDate from '@cheesenp/format-date'
+import formatDate from '@cheesejs/format-date'
 
 formatDate(new Date(),'Y-MM-DD WWW hh:mm:ss')
 // 2021-01-13 星期三 22:20:03
